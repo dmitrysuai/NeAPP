@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Program Files/NeAPP/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Program Files/NeAPP/app/src/main/res/layout/fragment_search.xml" value="0.29270833333333335" />
+        <entry key="..\:/Program Files/NeAPP/app/src/main/res/layout/fragment_splash.xml" value="0.29270833333333335" />
       </map>
     </option>
   </component>
