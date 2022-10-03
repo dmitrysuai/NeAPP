@@ -6,17 +6,20 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import ru.startandroid.neapp.R
+import ru.startandroid.neapp.databinding.FragmentDetailBinding
 
-class detailFragment : Fragment() {
+class DetailFragment : Fragment() {
 
+
+    private var _binding: FragmentDetailBinding? = null
+    private val mBinding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_detail, container, false)
+        _binding = FragmentDetailBinding.inflate(layoutInflater, container, false)
+        return mBinding.root
     }
-
-
 }
+
