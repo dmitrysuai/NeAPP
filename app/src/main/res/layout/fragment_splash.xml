@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:background="#9FD3A1"
         android:text="@string/hello_blank_fragment"
-        android:textColor="#D12D2D"
+        android:textColor="#D85454"
         android:textSize="34sp"
         android:textStyle="bold"
 
